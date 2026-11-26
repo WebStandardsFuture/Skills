@@ -1,138 +1,110 @@
 
-User prompt: Please apply the W3C Recharter Review skill to https://www.w3.org/2026/11/proposed-atag-wg-charter.html
-Response: Verdict
-Recommended option: Recharter with changes (specifically tightening deliverable maturity expectations and fixing licensing/coordination/charter-quality details before or via AC comments; secondarily, a shorter charter with an explicit checkpoint is worth considering if generative-AI authoring guidance remains unincubated).
-From the perspective of W3C as an institution and the wider web community, reviving the Authoring Tool Accessibility Guidelines Working Group (ATAG WG) after an 11-year closure is worthwhile in principle because authoring tools have a high leverage effect on web accessibility and AI-assisted content creation has shifted how content is authored. However, the proposed two-year charter ([https://www.w3.org/2026/11/proposed-atag-wg-charter.html](https://www.w3.org/2026/11/proposed-atag-wg-charter.html)) is under-scoped in commitment but over-scoped in licensing friction: it requests a full two-year Working Group with minimal staff allocation (0.09 FTE combined), names only a Working Draft as the target maturity for the "Next version of ATAG" with no draft existing today, leaves the W3C–Accessibility Standards Canada (ASC) Memorandum of Understanding (MOU) unverified in the charter text, and selects the W3C Document License for all deliverables—tightening from the ATAG Community Group's Software and Document License and risking blocks on joint work and external derivative standards.
-1. Baseline & Pre-Charter History
-Proposed charter: PROPOSED Authoring Tool Accessibility Guidelines Working Group Charter ([https://www.w3.org/2026/11/proposed-atag-wg-charter.html](https://www.w3.org/2026/11/proposed-atag-wg-charter.html), announced for AC review on public-new-work on 11 November 2026 through 9 December 2026). Duration: 2 years from Call for Participation. Chairs: Miriam Fukushima (W3C Invited Expert) and Wendy Reid (W3C Invited Expert). Team Contacts: Rémi Bétin (0.08 FTE) and Shawn Lawton Henry (0.01 FTE).
-Prior WG history: The charter's "About this Charter" table lists an initial/previous charter period from 19 December 1997 to 5 November 2015, and the W3C group page ([https://www.w3.org/groups/wg/atag/](https://www.w3.org/groups/wg/atag/)) notes the ATAG WG closed on 15 December 2015 after completing ATAG 2.0 (published as a W3C Recommendation on 24 September 2015, alongside the Implementing ATAG 2.0 Working Group Note).
-Prior charters & history verification gap: Direct retrieval of w3.org/groups/wg/atag/charters/ and w3.org/standards/history/atag/ was not returned cleanly in search/browse results; the 2010–2015 charter ([https://www.w3.org/WAI/AU/2010/auwg_charter.html](https://www.w3.org/WAI/AU/2010/auwg_charter.html)) shows prior charters in Dec 1997, Feb 1999, Jan 2000, Jun 2001, and Sep 2004, with extensions in 2014–2015. Exact intermediate charter dates and /standards/history/atag/ publication timestamps beyond ATAG 1.0 (3 Feb 2000) and ATAG 2.0 (24 Sep 2015) could not be independently verified from those two specific index URLs.
-Community Group incubation: The Authoring Tools Accessibility Guidelines Community Group (ATAG CG) was proposed on 3 September 2025 and adopted its charter on 20 April 2026 ([https://w3c-cg.github.io/atag/ATAG_Charter.html](https://w3c-cg.github.io/atag/ATAG_Charter.html)), meeting regularly through late 2025 and 2026 to explore ATAG 2.0 updates and generative AI/LLM authoring issues.
-What this charter buys & overlap: Rather than delivering a Recommendation in two years, the proposed charter's primary new normative deliverable ("Next version of ATAG") starts with no draft and targets only a Working Draft by Q2 2028 (FPWD), while editorially revising ATAG 2.0 and Implementing ATAG 2.0 in Q2 2027. Note that ATAG 2.0's maintenance/errata and alignment with WCAG 2.2 / WCAG 3 overlaps conceptually with the Accessibility Guidelines Working Group (AG WG) and the ATAG CG, and European accessibility requirements in ETSI EN 301 549 (V3.2.1 in clause 11.8; V4.1.1 published September 2026 moving authoring tool requirements to clause 5.10) already address authoring tool functions in a regulatory standard.
-Deliverable & Milestone Slip Table
 
-Deliverable / Milestone
-Historical / CG Baseline
-Proposed Charter (Nov 2026) Promise
-Actual Status as of Nov 2026
-ATAG 1.0 (Recommendation)
-First chartered Dec 1997; Rec published 3 Feb 2000
-Historical baseline (superseded)
-Completed (W3C Recommendation, 2000)
-ATAG 2.0 (Recommendation)
-CR Nov 2013; Rec published 24 Sep 2015; WG closed Nov/Dec 2015
-Editorial revision in Q2 2027 (not meant as deadline)
-Published Rec (2015); no 2027 revision yet
-Implementing ATAG 2.0 (WG Note)
-Published as WG Note 24 Sep 2015
-Editorial revision in Q2 2027 (not meant as deadline)
-Published WG Note (2015); no 2027 revision yet
-Next version of ATAG (Normative)
-Incubating in ATAG CG (chartered 20 Apr 2026); Draft state: No draft
-Use cases & reqs Q3 2027; FPWD Q2 2028; expected completion: Working Draft
-No draft exists; FPWD not yet reached
-Other non-normative support docs
-ATAG CG scoped non-normative reports (Use cases, Gap analysis, Research)
-May produce use cases/reqs, test suite/impl report, primers/best practices (undated)
-Early CG exploration/minutes; deliverables undated
+*User prompt: Please apply the W3C Recharter Review skill to https\://www\.w3.org/2026/11/proposed-atag-wg-charter.html*
 
-2. Progress vs. Milestones
-ATAG 2.0 & Implementing ATAG 2.0 editorial revision: Promised for Q2 2027 (explicitly caveated in the charter as "not meant as deadlines"). Because the WG has been closed since 2015 and only just restarted via the ATAG CG in 2025–2026, this is a forward milestone rather than a slipped one, though the charter's non-binding caveat weakens accountability.
-Next version of ATAG: Promised as Use Cases & Requirements in Q3 2027 and an FPWD in Q2 2028, reaching only Working Draft status within the two-year charter window. The cause of having no draft today is that community incubation only formalized in April 2026 and generative AI / headless / API-driven authoring patterns are still being scoped.
-Undated deliverables: Non-normative documents ("Use case and requirement documents", "Test suite and implementation report", "Primer or best practice documents") have no target dates, making progress unmeasurable. Moreover, a two-year charter whose flagship new normative deliverable only reaches Working Draft—and whose timeline explicitly states dates "are not meant as deadlines"—leaves milestone rigor weak.
-3. Work Outside the Charter
-The proposed charter sets Scope around updating ATAG 2.0 (including WCAG 2.2 references, clarifications, and outdated references), authoring tool/platform shifts (generative AI, API-driven, headless, and web-based platforms), evolving user needs, and accessible AI/automation-driven authoring tools, while placing Standards for the accessibility of content Out of Scope.
-Active/adjacent work to watch against scope boundaries:
-WCAG 3 alignment: The charter notes WCAG 3 is being developed and commits to liaising with AG WG on WCAG 2 and WCAG 3. Because WCAG 3 is still a Working Draft (expected CR not before late 2027), tying ATAG requirements to an unstable WCAG 3 draft risks scope creep or premature lock-in if the WG tries to define content-level accessibility rules rather than authoring-tool behaviors.
-AI / LLM & agentic authoring: Both the ATAG CG charter and the proposed WG charter emphasize generative AI and LLMs. While "requirements and guidance for accessible AI- or automation-driven authoring tools" is inside Scope, W3C discussions in 2026 (including APA and Web & AI IG debates around AI training and agentic web interfaces) show fast-moving boundaries between authoring tools, AI models/agents, and end-user content quality.
-Joint work with Accessibility Standards Canada (ASC): The charter states W3C and ASC "will work jointly to develop authoring tool accessibility guidelines" under an ASC–W3C MOU, whereas the Deliverables section lists W3C normative/non-normative outputs without detailing joint governance or deliverable ownership.
-4. Real-World Adoption and Impact (Section 4b: Guidelines & Non-API Deliverables)
+### **Response: Verdict**
+
+**Recommended option:** **Recharter with changes** (specifically tightening deliverable maturity expectations and fixing licensing/coordination/charter-quality details before or via AC comments; secondarily, a **shorter charter with an explicit checkpoint** is worth considering if generative-AI authoring guidance remains unincubated).
+
+From the perspective of W3C as an institution and the wider web community, reviving the Authoring Tool Accessibility Guidelines Working Group (ATAG WG) after an 11-year closure is worthwhile in principle because authoring tools have a high leverage effect on web accessibility and AI-assisted content creation has shifted how content is authored. However, the proposed two-year charter (\[https\://www\.w3.org/2026/11/proposed-atag-wg-charter.html\](https\://www\.w3.org/2026/11/proposed-atag-wg-charter.html)) is **under-scoped in commitment but over-scoped in licensing friction**: it requests a full two-year Working Group with minimal staff allocation (0.09 FTE combined), names only a *Working Draft* as the target maturity for the "Next version of ATAG" with no draft existing today, leaves the W3C–Accessibility Standards Canada (ASC) Memorandum of Understanding (MOU) unverified in the charter text, and selects the **W3C Document License** for *all* deliverables—tightening from the ATAG Community Group's Software and Document License and risking blocks on joint work and external derivative standards.
+
+### **1\. Baseline & Pre-Charter History**
+
+> * **Proposed charter:** *PROPOSED* Authoring Tool Accessibility Guidelines Working Group Charter (\[https\://www\.w3.org/2026/11/proposed-atag-wg-charter.html\](https\://www\.w3.org/2026/11/proposed-atag-wg-charter.html), announced for AC review on public-new-work on 11 November 2026 through 9 December 2026). Duration: 2 years from Call for Participation. Chairs: Miriam Fukushima (W3C Invited Expert) and Wendy Reid (W3C Invited Expert). Team Contacts: Rémi Bétin (0.08 FTE) and Shawn Lawton Henry (0.01 FTE).  
+> * **Prior WG history:** The charter's "About this Charter" table lists an initial/previous charter period from **19 December 1997** to **5 November 2015**, and the W3C group page (\[https\://www\.w3.org/groups/wg/atag/\](https\://www\.w3.org/groups/wg/atag/)) notes the ATAG WG closed on **15 December 2015** after completing **ATAG 2.0** (published as a W3C Recommendation on **24 September 2015**, alongside the *Implementing ATAG 2.0* Working Group Note).  
+> * **Prior charters & history verification gap:** Direct retrieval of w3.org/groups/wg/atag/charters/ and w3.org/standards/history/atag/ was not returned cleanly in search/browse results; the 2010–2015 charter (\[https\://www\.w3.org/WAI/AU/2010/auwg\_charter.html\](https\://www\.w3.org/WAI/AU/2010/auwg\_charter.html)) shows prior charters in Dec 1997, Feb 1999, Jan 2000, Jun 2001, and Sep 2004, with extensions in 2014–2015. Exact intermediate charter dates and /standards/history/atag/ publication timestamps beyond ATAG 1.0 (3 Feb 2000\) and ATAG 2.0 (24 Sep 2015\) could not be independently verified from those two specific index URLs.  
+> * **Community Group incubation:** The Authoring Tools Accessibility Guidelines Community Group (ATAG CG) was proposed on **3 September 2025** and adopted its charter on **20 April 2026** (\[https\://w3c-cg.github.io/atag/ATAG\_Charter.html\](https\://w3c-cg.github.io/atag/ATAG\_Charter.html)), meeting regularly through late 2025 and 2026 to explore ATAG 2.0 updates and generative AI/LLM authoring issues.  
+> * **What this charter buys & overlap:** Rather than delivering a Recommendation in two years, the proposed charter's primary new normative deliverable ("Next version of ATAG") starts with **no draft** and targets only a **Working Draft** by Q2 2028 (FPWD), while editorially revising ATAG 2.0 and *Implementing ATAG 2.0* in Q2 2027\. Note that ATAG 2.0's maintenance/errata and alignment with WCAG 2.2 / WCAG 3 overlaps conceptually with the Accessibility Guidelines Working Group (AG WG) and the ATAG CG, and European accessibility requirements in ETSI EN 301 549 (V3.2.1 in clause 11.8; V4.1.1 published September 2026 moving authoring tool requirements to clause 5.10) already address authoring tool functions in a regulatory standard.
+
+#### **Deliverable & Milestone Slip Table**
+
+| Deliverable / Milestone | Historical / CG Baseline | Proposed Charter (Nov 2026\) Promise | Actual Status as of Nov 2026 |
+| :---- | :---- | :---- | :---- |
+| **ATAG 1.0 (Recommendation)** | First chartered Dec 1997; Rec published 3 Feb 2000 | Historical baseline (superseded) | Completed (W3C Recommendation, 2000\) |
+| **ATAG 2.0 (Recommendation)** | CR Nov 2013; Rec published 24 Sep 2015; WG closed Nov/Dec 2015 | Editorial revision in **Q2 2027** (not meant as deadline) | Published Rec (2015); no 2027 revision yet |
+| **Implementing ATAG 2.0 (WG Note)** | Published as WG Note 24 Sep 2015 | Editorial revision in **Q2 2027** (not meant as deadline) | Published WG Note (2015); no 2027 revision yet |
+| **Next version of ATAG (Normative)** | Incubating in ATAG CG (chartered 20 Apr 2026); **Draft state: No draft** | Use cases & reqs **Q3 2027**; **FPWD Q2 2028**; expected completion: **Working Draft** | No draft exists; FPWD not yet reached |
+| **Other non-normative support docs** | ATAG CG scoped non-normative reports (Use cases, Gap analysis, Research) | May produce use cases/reqs, test suite/impl report, primers/best practices (**undated**) | Early CG exploration/minutes; deliverables undated |
+
+### **2\. Progress vs. Milestones**
+
+> * **ATAG 2.0 & Implementing ATAG 2.0 editorial revision:** Promised for **Q2 2027** (explicitly caveated in the charter as "not meant as deadlines"). Because the WG has been closed since 2015 and only just restarted via the ATAG CG in 2025–2026, this is a forward milestone rather than a slipped one, though the charter's non-binding caveat weakens accountability.  
+> * **Next version of ATAG:** Promised as Use Cases & Requirements in **Q3 2027** and an **FPWD in Q2 2028**, reaching only **Working Draft** status within the two-year charter window. The cause of having **no draft** today is that community incubation only formalized in April 2026 and generative AI / headless / API-driven authoring patterns are still being scoped.  
+> * **Undated deliverables:** Non-normative documents ("Use case and requirement documents", "Test suite and implementation report", "Primer or best practice documents") have **no target dates**, making progress unmeasurable. Moreover, a two-year charter whose flagship new normative deliverable only reaches *Working Draft*—and whose timeline explicitly states dates "are not meant as deadlines"—leaves milestone rigor weak.
+
+### **3\. Work Outside the Charter**
+
+The proposed charter sets **Scope** around updating ATAG 2.0 (including WCAG 2.2 references, clarifications, and outdated references), authoring tool/platform shifts (generative AI, API-driven, headless, and web-based platforms), evolving user needs, and accessible AI/automation-driven authoring tools, while placing **Standards for the accessibility of content** **Out of Scope**.
+
+> * **Active/adjacent work to watch against scope boundaries:**  
+  * **WCAG 3 alignment:** The charter notes WCAG 3 is being developed and commits to liaising with AG WG on WCAG 2 and WCAG 3\. Because WCAG 3 is still a Working Draft (expected CR not before late 2027), tying ATAG requirements to an unstable WCAG 3 draft risks scope creep or premature lock-in if the WG tries to define content-level accessibility rules rather than authoring-tool behaviors.  
+  * **AI / LLM & agentic authoring:** Both the ATAG CG charter and the proposed WG charter emphasize generative AI and LLMs. While "requirements and guidance for accessible AI- or automation-driven authoring tools" is inside Scope, W3C discussions in 2026 (including APA and Web & AI IG debates around AI training and agentic web interfaces) show fast-moving boundaries between authoring tools, AI models/agents, and end-user content quality.  
+  * **Joint work with Accessibility Standards Canada (ASC):** The charter states W3C and ASC "will work jointly to develop authoring tool accessibility guidelines" under an ASC–W3C MOU, whereas the Deliverables section lists W3C normative/non-normative outputs without detailing joint governance or deliverable ownership.
+
+### **4\. Real-World Adoption and Impact (Section 4b: Guidelines & Non-API Deliverables)**
+
 Because ATAG is a guidelines specification rather than a browser API, browser telemetry (web-features-explorer, caniuse, Chrome use counters, wpt.fyi) does not apply. Instead, Section 4b evaluates conformance claims, regulatory/procurement uptake, implementer engagement, successor/transition plans, evaluation tooling, and currency.
-Conformance claims & tooling: ATAG 2.0 (2015) established Part A (accessible authoring tool UI) and Part B (supporting accessible content creation) mapped to WCAG 2.0, with W3C providing an ATAG Report Tool and Authoring Tools List. Public, independently verified ATAG conformance claims across mainstream CMSs, site builders, and AI authoring tools remain scarce in practice; many tools claim WCAG alignment or partial checks rather than full ATAG conformance reports.
-Regulatory and procurement uptake: Authoring tool obligations appear in procurement and accessibility frameworks—such as U.S. Section 508 / IT accessibility guidance and European accessibility standards (ETSI EN 301 549, which included authoring tool requirements in clause 11.8 in V3.2.1 and updated them in V4.1.1 in September 2026)—giving authoring tool accessibility real policy relevance, even when ATAG 2.0 is referenced alongside or behind broader standards.
-Implementer engagement & currency: ATAG 2.0 is 11 years old (published September 2015) and references WCAG 2.0, predating WCAG 2.1/2.2, WCAG 3, modern headless/block/API CMS architectures, and LLM/AI content generation. While the ATAG CG (formed Sept 2025, chartered Apr 2026) and Nov 2026 W3C outreach highlight authoring tools' "multiplier effect," broad participation from major CMS, LMS, no-code, and AI tool vendors is not yet demonstrated in the charter.
-Value already delivered vs. next two years: ATAG 2.0 already delivered the conceptual Part A / Part B framework and 2015 Recommendation baseline. Two more years of WG work will not deliver a finished new Recommendation; at best, it will deliver an editorial refresh of ATAG 2.0 / Implementing ATAG 2.0 and a first Working Draft of the next version.
-Three-Tests Scorecard by Deliverable
 
-Deliverable
-Real Problem
-Deployed Solution
-Timely
-ATAG 2.0 & Implementing ATAG 2.0 (Editorial Revision)
-Yes — Outdated references (e.g., WCAG 2.0) and stale guidance after 11 years create ambiguity for implementers and evaluators.
-Partial — ATAG 2.0 is a 2015 Rec and cited in accessibility contexts, though widespread verified product conformance is limited.
-Mixed — Editorial update is targeted for Q2 2027, 12 years after initial publication, with non-binding dates.
-Next version of ATAG (Working Draft target)
-Yes — Generative AI, headless/API platforms, and modern editors raise real questions not covered in 2015.
-No — No draft exists yet; no shipping/conformant implementation of a next-gen spec exists.
-No (Early / Unproven) — Two-year charter only targets a Working Draft (FPWD Q2 2028); no prior WG milestones to benchmark.
-Non-normative support docs (Use cases, primers, tests)
-Moderate — Practical guidance and test methods help tool builders and auditors bridge gaps.
-Partial — Historical WG Note and report tool exist from 2015; new deliverables have no dates or commitments yet.
-Unmeasurable — No dates specified in the proposed charter.
+> * **Conformance claims & tooling:** ATAG 2.0 (2015) established Part A (accessible authoring tool UI) and Part B (supporting accessible content creation) mapped to WCAG 2.0, with W3C providing an *ATAG Report Tool* and *Authoring Tools List*. Public, independently verified ATAG conformance claims across mainstream CMSs, site builders, and AI authoring tools remain scarce in practice; many tools claim WCAG alignment or partial checks rather than full ATAG conformance reports.  
+> * **Regulatory and procurement uptake:** Authoring tool obligations appear in procurement and accessibility frameworks—such as U.S. Section 508 / IT accessibility guidance and European accessibility standards (ETSI EN 301 549, which included authoring tool requirements in clause 11.8 in V3.2.1 and updated them in V4.1.1 in September 2026)—giving authoring tool accessibility real policy relevance, even when ATAG 2.0 is referenced alongside or behind broader standards.  
+> * **Implementer engagement & currency:** ATAG 2.0 is **11 years old** (published September 2015\) and references WCAG 2.0, predating WCAG 2.1/2.2, WCAG 3, modern headless/block/API CMS architectures, and LLM/AI content generation. While the ATAG CG (formed Sept 2025, chartered Apr 2026\) and Nov 2026 W3C outreach highlight authoring tools' "multiplier effect," broad participation from major CMS, LMS, no-code, and AI tool vendors is not yet demonstrated in the charter.  
+> * **Value already delivered vs. next two years:** ATAG 2.0 already delivered the conceptual Part A / Part B framework and 2015 Recommendation baseline. Two more years of WG work will **not** deliver a finished new Recommendation; at best, it will deliver an editorial refresh of ATAG 2.0 / *Implementing ATAG 2.0* and a first Working Draft of the next version.
 
-5. TAG and Horizontal Reviews
-TAG Charter Review (w3ctag/design-reviews#1241): Opened 29 June 2026 (linked from w3c/strategy#552, with expected refinement end 3 July 2026), assigned to matatk, and marked Resolution: satisfied and closed on 16 July 2026 ("We are happy to see this work progress").
-Horizontal review (APA): APA minutes from 1 July 2026 (2026/07/01-apa-minutes.html) note general support for ATAG (w3c/strategy#552) while wanting to know the expected date for ATAG-next (as a non-blocker); APA minutes from 22 July 2026 (2026/07/22-apa-minutes.html) note a reply from ATAG regarding a working draft by the end of the charter.
-Verification note: Direct access to tag-github-bot.w3.org/gh/w3ctag/design-reviews/1241 and the raw body of w3c/strategy#552 was not needed beyond the GitHub issue page and W3C minutes, which already capture the key dates and resolution.
+#### **Three-Tests Scorecard by Deliverable**
 
-Concern / Review Item
-Addressed in Spec / Work?
-Reflected in Proposed Charter?
-Charter / architectural readiness of reviving ATAG WG (w3ctag/design-reviews#1241 / strategy#552)
-Yes — TAG closed issue #1241 with Resolution: satisfied on 16 Jul 2026.
-Yes — Charter defines scope, WCAG/AI focus, and horizontal review checkpoints.
-Expected timeline / delivery of ATAG-next (APA review, Jul 2026)
-Partially — Charter sets Q3 2027 requirements and Q2 2028 FPWD (Working Draft target), but explicitly states dates are not deadlines.
-Partially — Timeline is present, though non-binding and only reaches Working Draft in two years.
-Ongoing horizontal review (a11y, i18n, privacy, security, TAG)
-Pending — No draft exists yet; horizontal review is invited at major transitions (including FPWD and at least 3 months pre-CR).
-Yes — Coordination section specifies horizontal review and liaisons with AG WG, i18n, Publishing, Media/Audio/Timed Text, Web & AI IG, ATAG CG, and ASC.
+| Deliverable | Real Problem | Deployed Solution | Timely |
+| :---- | :---- | :---- | :---- |
+| **ATAG 2.0 & Implementing ATAG 2.0 (Editorial Revision)** | **Yes** — Outdated references (e.g., WCAG 2.0) and stale guidance after 11 years create ambiguity for implementers and evaluators. | **Partial** — ATAG 2.0 is a 2015 Rec and cited in accessibility contexts, though widespread verified product conformance is limited. | **Mixed** — Editorial update is targeted for Q2 2027, 12 years after initial publication, with non-binding dates. |
+| **Next version of ATAG (Working Draft target)** | **Yes** — Generative AI, headless/API platforms, and modern editors raise real questions not covered in 2015\. | **No** — No draft exists yet; no shipping/conformant implementation of a next-gen spec exists. | **No (Early / Unproven)** — Two-year charter only targets a *Working Draft* (FPWD Q2 2028); no prior WG milestones to benchmark. |
+| **Non-normative support docs (Use cases, primers, tests)** | **Moderate** — Practical guidance and test methods help tool builders and auditors bridge gaps. | **Partial** — Historical WG Note and report tool exist from 2015; new deliverables have no dates or commitments yet. | **Unmeasurable** — No dates specified in the proposed charter. |
 
-6. Proposed Charter Quality & Licensing
-Dates & milestones: Start and end dates are bracketed placeholders ([dd monthname yyyy]), which is standard prior to AC approval, and milestone dates (December 2026 through Q2 2028) are paired with a disclaimer that they "are not meant as deadlines." Non-normative deliverables have no dates.
-Links, FTE, and Patent Policy: The charter cites the W3C Patent Policy (Version of 15 May 2025) and lists 0.09 FTE total (0.08 FTE Rémi Bétin + 0.01 FTE Shawn Lawton Henry), with chairs listed as W3C Invited Experts. Two Invited Experts as chairs on 0.09 FTE is thin staffing if active coordination with AG WG, Web & AI IG, horizontal groups, and ASC is expected.
-Licensing audit (critical finding):
-Proposed charter: The Licensing section states: "This Working Group will use the W3C Document license for all its deliverables." (The bottom footer of the proposed charter carries W3C's permissive document license link for the charter page itself.)
-Comparison with ATAG CG charter & prior WG charter: The ATAG CG charter ([https://w3c-cg.github.io/atag/ATAG_Charter.html](https://w3c-cg.github.io/atag/ATAG_Charter.html), April 2026) specifies the W3C Software and Document License for specifications and states other documents should use that license where possible. Moving work from the ATAG CG into a WG under the W3C Document License therefore tightens the license on specifications and creates a potential mismatch for non-normative documents, test suites, or code/examples. Earlier ATAG WG charters (e.g., 2010 charter) focused on Patent Policy / Royalty-Free terms rather than a separate WG Document License clause.
-Live draft check: Because the charter states there is no draft yet for the next version of ATAG, no new draft license notice can be inspected yet; ATAG 2.0 (2015) uses W3C's 2015 document use rules.
-Concrete costs of the W3C Document License: The W3C Document License restricts creating derivative technical specifications, which can impede joint publication or specification reuse across W3C groups with different licensing terms, complicate adaptation or profiling by external standards bodies (such as Accessibility Standards Canada (ASC) under the cited ASC–W3C MOU, or ETSI / national standards bodies), and limit community/implementer reuse of primers, test materials, or examples. In addition, the charter references an ASC–W3C Memorandum of Understanding without confirming in the charter whether that MOU is signed, public, or addresses copyright/joint-specification terms.
-7. Costs, Benefits, and Alternatives
-Costs to W3C: Rather than dollar figures (which W3C does not publish per group), the costs are 0.09 FTE of W3C Team contact bandwidth, horizontal review and TAG oversight load as drafts mature, and reputational risk if a newly chartered WG stalls without a concrete draft or produces non-binding timelines.
-What only W3C adds: Under the 15 May 2025 W3C Patent Policy, W3C Working Groups provide a formal Royalty-Free patent commitment framework (with formal exclusion opportunities tied to standards-track stages such as FPWD), formal horizontal review, and W3C Recommendation/Note status—advantages a Community Group alone cannot confer.
-Participation health: The charter targets 6 or more active participants, including editors, test leads, and key implementers, with chairs, editors, and test leads expected to spend half a working day per week. Active CG participation in 2025–2026 exists, but broad authoring-tool and AI-vendor participation is not yet proven.
-Charter Options & Who Loses What
+### **5\. TAG and Horizontal Reviews**
 
-Option
-Assessment
-Who Loses What
-Recharter as proposed
-Acceptable only as a low-FTE restart, but weakened by non-binding dates, Document License tightening, and unverified MOU details.
-External partners/implementers risk licensing friction under the W3C Document License; AC loses clear milestone accountability.
-Recharter with changes (Recommended)
-Keep the two-year WG, but fix the license (use W3C Software and Document License, or at minimum allow it for non-normative/test/example materials and clarify ASC MOU copyright terms), tighten milestone commitments, and clarify scope boundaries.
-Minor editorial/negotiation time during AC review; no loss to legitimate WG work.
-Narrow the charter
-Limit initial WG scope to ATAG 2.0 / Implementing ATAG 2.0 updates while keeping AI/next-gen authoring in the ATAG CG until a draft matures.
-Delays formal WG patent-policy coverage on next-gen AI authoring requirements until a subsequent charter or scope update.
-Maintenance-only charter
-Restrict work strictly to maintaining ATAG 2.0 and Implementing ATAG 2.0.
-Loses an institutional W3C home for addressing AI and modern authoring tools in the near term.
-Shorter charter with checkpoint
-Charter for 12–18 months with an explicit FPWD/draft readiness checkpoint.
-Adds charter-renewal overhead if the group is already ready to execute over two years.
-Return to Community Group
-Keep all work in the ATAG CG until drafts and editor/implementer commitments solidify.
-Loses WG formalization, horizontal-review scheduling hooks, and W3C Patent Policy RF commitments for the next two years.
-Close / do not charter
-Do not charter an ATAG WG at this time.
-W3C loses a dedicated venue for authoring-tool accessibility at a moment when AI-generated content is expanding rapidly.
+> * **TAG Charter Review (w3ctag/design-reviews\#1241):** Opened **29 June 2026** (linked from w3c/strategy\#552, with expected refinement end **3 July 2026**), assigned to matatk, and marked **Resolution: satisfied** and closed on **16 July 2026** ("We are happy to see this work progress").  
+> * **Horizontal review (APA):** APA minutes from **1 July 2026** (2026/07/01-apa-minutes.html) note general support for ATAG (w3c/strategy\#552) while wanting to know the expected date for ATAG-next (as a non-blocker); APA minutes from **22 July 2026** (2026/07/22-apa-minutes.html) note a reply from ATAG regarding a working draft by the end of the charter.  
+> * **Verification note:** Direct access to tag-github-bot.w3.org/gh/w3ctag/design-reviews/1241 and the raw body of w3c/strategy\#552 was not needed beyond the GitHub issue page and W3C minutes, which already capture the key dates and resolution.
 
-Concrete Changes to Request in the AC Comment
-Change the Licensing section from the W3C Document License to the W3C Software and Document License (or, at a minimum, apply the W3C Software and Document License to non-normative documents, test suites, and code/examples, and explain why the Document License is required on normative text given the tightening from the ATAG CG charter).
-Clarify the ASC–W3C Memorandum of Understanding and joint deliverables, stating whether the MOU is executed and publicly available and how joint work with Accessibility Standards Canada interacts with W3C's Patent Policy and deliverable licensing.
-Add target dates for non-normative deliverables (such as use cases/requirements, primers, and test/evaluation materials) and clarify how milestone dates will be tracked rather than treating all dates merely as non-binding estimates.
-Confirm staffing and chair capacity (0.09 FTE) against expected coordination with AG WG, Web & AI IG, horizontal review groups, and ASC, and note how editor/implementer participation will be recruited beyond the initial CG group.
-Tighten the Scope vs. Out-of-Scope boundary regarding WCAG 3 alignment and AI/LLM authoring tools so the WG remains focused on authoring-tool UI and content-creation support without duplicating or drifting into WCAG content-accessibility criteria.
+| Concern / Review Item | Addressed in Spec / Work? | Reflected in Proposed Charter? |
+| :---- | :---- | :---- |
+| **Charter / architectural readiness of reviving ATAG WG (w3ctag/design-reviews\#1241 / strategy\#552)** | **Yes** — TAG closed issue \#1241 with Resolution: satisfied on 16 Jul 2026\. | **Yes** — Charter defines scope, WCAG/AI focus, and horizontal review checkpoints. |
+| **Expected timeline / delivery of ATAG-next (APA review, Jul 2026\)** | **Partially** — Charter sets Q3 2027 requirements and Q2 2028 FPWD (Working Draft target), but explicitly states dates are not deadlines. | **Partially** — Timeline is present, though non-binding and only reaches Working Draft in two years. |
+| **Ongoing horizontal review (a11y, i18n, privacy, security, TAG)** | **Pending** — No draft exists yet; horizontal review is invited at major transitions (including FPWD and at least 3 months pre-CR). | **Yes** — Coordination section specifies horizontal review and liaisons with AG WG, i18n, Publishing, Media/Audio/Timed Text, Web & AI IG, ATAG CG, and ASC. |
 
+### **6\. Proposed Charter Quality & Licensing**
+
+> * **Dates & milestones:** Start and end dates are bracketed placeholders (\[dd monthname yyyy\]), which is standard prior to AC approval, and milestone dates (December 2026 through Q2 2028\) are paired with a disclaimer that they "are not meant as deadlines." Non-normative deliverables have no dates.  
+> * **Links, FTE, and Patent Policy:** The charter cites the **W3C Patent Policy (Version of 15 May 2025\)** and lists **0.09 FTE total** (0.08 FTE Rémi Bétin \+ 0.01 FTE Shawn Lawton Henry), with chairs listed as W3C Invited Experts. Two Invited Experts as chairs on **0.09 FTE** is thin staffing if active coordination with AG WG, Web & AI IG, horizontal groups, and ASC is expected.  
+> * **Licensing audit (critical finding):**  
+  * **Proposed charter:** The **Licensing** section states: *"This Working Group will use the W3C Document license for all its deliverables."* (The bottom footer of the proposed charter carries W3C's permissive document license link for the charter page itself.)  
+  * **Comparison with ATAG CG charter & prior WG charter:** The ATAG CG charter (\[https\://w3c-cg.github.io/atag/ATAG\_Charter.html\](https\://w3c-cg.github.io/atag/ATAG\_Charter.html), April 2026\) specifies the **W3C Software and Document License** for specifications and states other documents *should* use that license where possible. Moving work from the ATAG CG into a WG under the **W3C Document License** therefore **tightens** the license on specifications and creates a potential mismatch for non-normative documents, test suites, or code/examples. Earlier ATAG WG charters (e.g., 2010 charter) focused on Patent Policy / Royalty-Free terms rather than a separate WG Document License clause.  
+  * **Live draft check:** Because the charter states there is **no draft** yet for the next version of ATAG, no new draft license notice can be inspected yet; ATAG 2.0 (2015) uses W3C's 2015 document use rules.  
+  * **Concrete costs of the W3C Document License:** The W3C Document License restricts creating derivative technical specifications, which can impede joint publication or specification reuse across W3C groups with different licensing terms, complicate adaptation or profiling by external standards bodies (such as **Accessibility Standards Canada (ASC)** under the cited ASC–W3C MOU, or **ETSI** / national standards bodies), and limit community/implementer reuse of primers, test materials, or examples. In addition, the charter references an **ASC–W3C Memorandum of Understanding** without confirming in the charter whether that MOU is signed, public, or addresses copyright/joint-specification terms.
+
+### **7\. Costs, Benefits, and Alternatives**
+
+> * **Costs to W3C:** Rather than dollar figures (which W3C does not publish per group), the costs are **0.09 FTE** of W3C Team contact bandwidth, horizontal review and TAG oversight load as drafts mature, and reputational risk if a newly chartered WG stalls without a concrete draft or produces non-binding timelines.  
+> * **What only W3C adds:** Under the **15 May 2025 W3C Patent Policy**, W3C Working Groups provide a formal Royalty-Free patent commitment framework (with formal exclusion opportunities tied to standards-track stages such as FPWD), formal horizontal review, and W3C Recommendation/Note status—advantages a Community Group alone cannot confer.  
+> * **Participation health:** The charter targets **6 or more active participants**, including editors, test leads, and key implementers, with chairs, editors, and test leads expected to spend half a working day per week. Active CG participation in 2025–2026 exists, but broad authoring-tool and AI-vendor participation is not yet proven.
+
+#### **Charter Options & Who Loses What**
+
+| Option | Assessment | Who Loses What |
+| :---- | :---- | :---- |
+| **Recharter as proposed** | Acceptable only as a low-FTE restart, but weakened by non-binding dates, Document License tightening, and unverified MOU details. | External partners/implementers risk licensing friction under the W3C Document License; AC loses clear milestone accountability. |
+| **Recharter with changes (Recommended)** | Keep the two-year WG, but fix the license (use W3C Software and Document License, or at minimum allow it for non-normative/test/example materials and clarify ASC MOU copyright terms), tighten milestone commitments, and clarify scope boundaries. | Minor editorial/negotiation time during AC review; no loss to legitimate WG work. |
+| **Narrow the charter** | Limit initial WG scope to ATAG 2.0 / *Implementing ATAG 2.0* updates while keeping AI/next-gen authoring in the ATAG CG until a draft matures. | Delays formal WG patent-policy coverage on next-gen AI authoring requirements until a subsequent charter or scope update. |
+| **Maintenance-only charter** | Restrict work strictly to maintaining ATAG 2.0 and *Implementing ATAG 2.0*. | Loses an institutional W3C home for addressing AI and modern authoring tools in the near term. |
+| **Shorter charter with checkpoint** | Charter for 12–18 months with an explicit FPWD/draft readiness checkpoint. | Adds charter-renewal overhead if the group is already ready to execute over two years. |
+| **Return to Community Group** | Keep all work in the ATAG CG until drafts and editor/implementer commitments solidify. | Loses WG formalization, horizontal-review scheduling hooks, and W3C Patent Policy RF commitments for the next two years. |
+| **Close / do not charter** | Do not charter an ATAG WG at this time. | W3C loses a dedicated venue for authoring-tool accessibility at a moment when AI-generated content is expanding rapidly. |
+
+### **Concrete Changes to Request in the AC Comment**
+
+> 1. **Change the Licensing section from the W3C Document License to the W3C Software and Document License** (or, at a minimum, apply the W3C Software and Document License to non-normative documents, test suites, and code/examples, and explain why the Document License is required on normative text given the tightening from the ATAG CG charter).  
+> 2. **Clarify the ASC–W3C Memorandum of Understanding and joint deliverables**, stating whether the MOU is executed and publicly available and how joint work with Accessibility Standards Canada interacts with W3C's Patent Policy and deliverable licensing.  
+> 3. **Add target dates for non-normative deliverables** (such as use cases/requirements, primers, and test/evaluation materials) and clarify how milestone dates will be tracked rather than treating all dates merely as non-binding estimates.  
+> 4. **Confirm staffing and chair capacity (0.09 FTE)** against expected coordination with AG WG, Web & AI IG, horizontal review groups, and ASC, and note how editor/implementer participation will be recruited beyond the initial CG group.  
+> 5. **Tighten the Scope vs. Out-of-Scope boundary** regarding WCAG 3 alignment and AI/LLM authoring tools so the WG remains focused on authoring-tool UI and content-creation support without duplicating or drifting into WCAG content-accessibility criteria.
+
+---
 
